@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - St. Philomena College</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f9f9f9;
+      }
+      header {
+        background: #003366;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: yellow;
+      }
+      .container {
+        padding: 20px;
+        text-align: center;
+      }
+      form input,
+      form textarea {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      form button {
+        padding: 10px 20px;
+        background: #003366;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      form button:hover {
+        background: green;
+      }
+      img {
+        max-width: 80%;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      footer {
+        background: #003366;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        We’d love to hear from you! Fill the form below or visit our campus.
+      </p>
+      <form>
+        <input type="text" placeholder="Your Name" required /><br />
+        <input type="email" placeholder="Your Email" required /><br />
+        <textarea rows="5" placeholder="Your Message"></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+      <h3>Contact Details</h3>
+      <p>Email: info@philomenacollege.edu</p>
+      <p>Phone: +91 9876543210</p>
+      <p>Address: Puttur, Karnataka - 574202</p>
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Contact Image"
+      />
+    </div>
+
+    <footer>
+      <p>&copy; 2025 St. Philomena College</p>
+    </footer>
+  </body>
+</html>
