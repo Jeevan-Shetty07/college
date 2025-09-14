@@ -1,218 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>St. Philomena College - Home</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f9f9f9;
-        line-height: 1.6;
-      }
-      header {
-        background: #003366;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-      nav a {
-        color: white;
-        margin: 0 15px;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      nav a:hover {
-        color: yellow;
-      }
-      .container {
-        padding: 40px 20px;
-        text-align: center;
-        max-width: 1200px;
-        margin: auto;
-      }
-      h2 {
-        margin-bottom: 20px;
-        color: #003366;
-      }
-      p {
-        margin-bottom: 20px;
-        color: #333;
-      }
-      img {
-        max-width: 90%;
-        border-radius: 8px;
-        margin-top: 15px;
-      }
-      .features, .departments, .faculty, .testimonials, .events, .cta {
-        padding: 60px 20px;
-        background: #fff;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      }
-      .section-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-      }
-      .card {
-        flex: 1 1 300px;
-        background: #f1f1f1;
-        padding: 20px;
-        border-radius: 8px;
-      }
-      footer {
-        background: #003366;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 20px;
-      }
-      footer p {
-        margin: 0;
-      }
-      button {
-        background: #003366;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-      }
-      button:hover {
-        background: #0055aa;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>St. Philomena College</h1>
-      <p>Affiliated to Mangalore University</p>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="courses.html">Courses</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodies Paradise - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Foodies Paradise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <div class="container">
-      <h2>Welcome to Our College</h2>
-      <p>
-        St. Philomena College, established in 1958, is one of the premier institutions of higher education in the region. 
-        We are committed to academic excellence, research, and holistic development of students.
-      </p>
-      <p>
-        Our lush green campus, well-equipped classrooms, dedicated faculty, and diverse courses make us the right choice for higher education.
-      </p>
-      <img src="data:image/jpeg;base64,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" alt="College Campus" />
+  <section class="hero">
+    <h2>Fresh. Tasty. Healthy.</h2>
+    <p>Your favorite meals made with love & served hot!</p>
+  </section>
+
+  <div class="container">
+    <div class="section">
+      <h2>Why Choose Us?</h2>
+      <p>At Foodies Paradise, we believe in the magic of fresh ingredients and authentic recipes. Every dish is carefully crafted by our expert chefs to give you the best dining experience.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_UageW3j-NOrJwtQWQEbIE2hAbDKU4XNTjw&s" alt="Dining Experience">
     </div>
 
-    <!-- Features Section -->
-    <div class="features container">
-      <h2>Our Features</h2>
-      <div class="section-grid">
-        <div class="card">
-          <h3>Modern Labs</h3>
-          <p>State-of-the-art labs for computer science, physics, chemistry, and more.</p>
-        </div>
-        <div class="card">
-          <h3>Library</h3>
-          <p>Extensive collection of books, journals, and digital resources for all courses.</p>
-        </div>
-        <div class="card">
-          <h3>Sports & Activities</h3>
-          <p>Indoor and outdoor sports facilities along with cultural and tech clubs.</p>
-        </div>
-      </div>
+    <div class="section">
+      <h2>Our Specialties</h2>
+      <ul>
+        <li>🍕 Hand-tossed Pizzas with farm-fresh toppings</li>
+        <li>🍔 Juicy Burgers grilled to perfection</li>
+        <li>🥗 Healthy Salads packed with nutrients</li>
+        <li>🍝 Rich & creamy Pasta dishes</li>
+      </ul>
     </div>
+  </div>
 
-    <!-- Departments Section -->
-    <div class="departments container">
-      <h2>Departments</h2>
-      <div class="section-grid">
-        <div class="card">
-          <h3>Computer Science</h3>
-          <p>Focus on programming, web development, AI, and modern technologies.</p>
-        </div>
-        <div class="card">
-          <h3>Commerce & Management</h3>
-          <p>Courses in accounting, finance, and business management.</p>
-        </div>
-        <div class="card">
-          <h3>Arts & Humanities</h3>
-          <p>Explore literature, history, psychology, and communication studies.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Faculty Section -->
-    <div class="faculty container">
-      <h2>Our Faculty</h2>
-      <div class="section-grid">
-        <div class="card">
-          <h3>Dr. Ramesh B.</h3>
-          <p>Professor of Computer Science, expert in AI and Data Science.</p>
-        </div>
-        <div class="card">
-          <h3>Dr. Anitha K.</h3>
-          <p>Head of Commerce Department, experienced in finance and management.</p>
-        </div>
-        <div class="card">
-          <h3>Prof. Suresh M.</h3>
-          <p>Senior Lecturer in Humanities, specialized in literature and ethics.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Events Section -->
-    <div class="events container">
-      <h2>Upcoming Events</h2>
-      <div class="section-grid">
-        <div class="card">
-          <h3>Annual Tech Fest</h3>
-          <p>Showcase of innovative projects by students on 20th November.</p>
-        </div>
-        <div class="card">
-          <h3>Sports Week</h3>
-          <p>Inter-departmental competitions including cricket, football, and chess.</p>
-        </div>
-        <div class="card">
-          <h3>Cultural Night</h3>
-          <p>Celebrate music, dance, and drama with the college community.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Testimonials Section -->
-    <div class="testimonials container">
-      <h2>What Our Students Say</h2>
-      <div class="section-grid">
-        <div class="card">
-          <p>"St. Philomena College provided me with the best learning environment and mentors who guided me every step of the way."</p>
-          <h4>- Jeevan S.</h4>
-        </div>
-        <div class="card">
-          <p>"The college encourages innovation and practical learning which helped me in my career and personal growth."</p>
-          <h4>- Ananya P.</h4>
-        </div>
-      </div>
-    </div>
-
-    <!-- Call to Action -->
-    <div class="cta container">
-      <h2>Join Our College Today!</h2>
-      <p>Take the first step toward a bright future. Explore our courses and become a part of our academic community.</p>
-      <button onclick="window.location.href='contact.html'">Apply Now</button>
-    </div>
-
-    <footer>
-      <p>&copy; 2025 St. Philomena College | Designed for Educational Purpose</p>
-    </footer>
-  </body>
+  <footer>
+    <p>&copy; 2025 Foodies Paradise | Designed with ❤️</p>
+  </footer>
+</body>
 </html>
